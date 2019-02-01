@@ -38,6 +38,19 @@ Etude de la possibilité d'une résolution directe
 Test de la fiabilité et de la capacité de généralisation du système
 
 
+	Objectifs du TIPE
+
+Gabriel
+
+J’implémente une méthode de résolution exacte du problème lorsqu’on se restreint à un plan discrétisé en cases.
+J'étudierai la complexité temporelle et le temps d’exécution de cet algorithme.
+Cela devrait justifier l’utilisation d’une approche heuristique.
+J’ai l’intention de justifier que le résultat du programme est bien optimal et de coder une fonction permettant
+de générer des circuits. Mon camarade implémente donc un algorithme génétique qui entraîne un réseau de neurones.
+Afin d’évaluer le réseau, nous codons une simulation d’une voiture dans un circuit, sur un plan continu,
+que le réseau devra conduire. Nous projetons d’étudier la convergence de cette méthode.
+
+
 	Bibliographie
 
 [1] - http://documents.irevues.inist.fr/bitstream/handle/2042/4402/000ED.PDF%20TEXTE.pdf?sequence=1
