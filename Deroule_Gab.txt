@@ -16,12 +16,30 @@ Temps d'exécution moyens de l'algorithme:
 Problèmes à résoudre:
 - Choisir la vitesse max à chaque étape = optimal? (Contre-exemple?)
 
+################     Théorie sur les métaheuristiques     ################
 
-Théorie sur l'algorithme dynamique
+Métaheuristique:
+
+
+################     Théorie sur l'algorithme dynamique     ################
+
 (Prouver que c'est optimal?)
-Le principe d'optimalité de Bellman
 
+Le principe d'optimalité de Bellman:
 La programmation dynamique a été introduite en 1953 par Richard Bellman. Il suit le principe selon lequel un problème se résout en résolvant les sous problèmes dont il est composé.
-Cette méthode est adaptée aux problèmes qui consistent à résoudre le même sous-problème plusieurs fois.
+
+Cette méthode est adaptée aux problèmes qui consistent à résoudre le même sous-problème plusieurs fois. (exm: suite de fibonacci)
 La méthode peut être ascendante (on résout les sous-problèmes d'abord) ou descedante (l'algorithme est récursif mais les valeurs obtenues sont stockée au fur et à mesure: mémoïsation).
 Ici l'algorithme est ascedant: on part des l'arrivée et on remonte le bout de circuit jusqu'au départ.
+
+
+################     Autres méthodes     ################
+
+Algorithme de colonies de fourmies (Ant Colony Optimization):
+Métaheuristique
+
+Branch and bound
+
+Recuit simulé
+
+Descente de gradient
