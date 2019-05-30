@@ -21,6 +21,16 @@ Problèmes à résoudre:
 Métaheuristique:
 
 
+Machine learning (ML):
+	”is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to "learn" (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed. [...] Machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions,through building a model from sample inputs.” (Wikipedia: https://en.wikipedia.org/wiki/Machine_learning )
+
+Différence avec Deep Learning?
+
+Algorithme génétique
+	
+Réseau de neurones
+
+
 ################     Théorie sur l'algorithme dynamique     ################
 
 (Prouver que c'est optimal?)
@@ -36,10 +46,15 @@ Ici l'algorithme est ascedant: on part des l'arrivée et on remonte le bout de c
 ################     Autres méthodes     ################
 
 Algorithme de colonies de fourmies (Ant Colony Optimization):
-Métaheuristique
+	Classe d'algorithmes. Métaheuristique basée sur le comportement des colonies de fourmies qui cherche un un chemin depuis leur colonie à une source de nourriture. Marco Dorigo 1990s, pour la recherche de chemins optimaux dans un graphe.
+	Stigmergie: communication entre les individus par la modification de l'environnement (ici, dépot de phéromones)
 
 Branch and bound
 
 Recuit simulé
 
 Descente de gradient
+
+Monte Carlo
+
+No Free Lunch
