@@ -48,8 +48,11 @@ Ici l'algorithme est ascedant: on part des l'arrivée et on remonte le bout de c
 Algorithme de colonies de fourmies (Ant Colony Optimization):
 	Classe d'algorithmes. Métaheuristique basée sur le comportement des colonies de fourmies qui cherche un un chemin depuis leur colonie à une source de nourriture. Marco Dorigo 1990s, pour la recherche de chemins optimaux dans un graphe.
 	Stigmergie: communication entre les individus par la modification de l'environnement (ici, dépot de phéromones)
+	
+	Problème pour l'appliquer ici: déplacement à vitesse constante, alors que dans notre modèle, la voiture peut accélérer.
 
 Branch and bound
+	Pour les problèmes d'optimisation dicrets. On explore un arbre dont les noeuds sont étiqueté par une parties de l'ensemble des solutions potentielles. Avant d'explorer le noeud, on estime des bornes d'optimalité des solution qui s'y trouvent. Si ces bornes n'offrent pas une meilleur solution que la meilleure valeur obtenue jusqu'à là, on n'explore pas le noeud.
 
 Recuit simulé
 
