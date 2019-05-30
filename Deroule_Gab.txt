@@ -18,6 +18,9 @@ Problèmes à résoudre:
 
 ################     Théorie sur les métaheuristiques     ################
 
+Diversification et intensification
+
+
 Métaheuristique:
 
 
@@ -53,6 +56,7 @@ Algorithme de colonies de fourmies (Ant Colony Optimization):
 
 Branch and bound
 	Pour les problèmes d'optimisation dicrets. On explore un arbre dont les noeuds sont étiqueté par une parties de l'ensemble des solutions potentielles. Avant d'explorer le noeud, on estime des bornes d'optimalité des solution qui s'y trouvent. Si ces bornes n'offrent pas une meilleur solution que la meilleure valeur obtenue jusqu'à là, on n'explore pas le noeud.
+	Autrement dit, la racine est l'ensemble entier. On le partitionne en ses fils.
 
 Recuit simulé
 
