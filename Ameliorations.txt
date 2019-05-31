@@ -12,13 +12,16 @@ creer la 1e génération
 filtrer
 elitisme
 
+repêche 20/50 en fonction de leur score
+croisements et mutation seulement parmis les repêchés et le meilleur
+"élitisme" ici: pour le croisement à chaque gène les meilleur ont plus de chance de donner
 
+croisements:
+chaque gène, on choisit au hasard un parent dans les p parents selectionnés pour donner son gène
 
 Modifié:
-proportion de sélection des meilleurs 0.25 -> 0.03
+proportion de sélection des meilleurs 0.25 -> 0.03 (ça c'est l'élitisme à proprement parler)
 Population initiale: 10 -> 50 (sinon la population devient trop petite après la modification de sélection des meilleurs)
 
-repêche 20/50 en fonction de leur score
-croisements et mutation seulement parmis les repêché et le meilleur (elitistes ou non?)
 
 
