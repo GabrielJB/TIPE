@@ -19,9 +19,14 @@ croisements et mutation seulement parmis les repêchés et le meilleur
 croisements:
 chaque gène, on choisit au hasard un parent dans les p parents selectionnés pour donner son gène
 
-Modifié:
+Mutations
+principale source de diversification -> pas le biaiser -> loi uniforme sur le coef à muter
+
+
+## Modifié
 proportion de sélection des meilleurs 0.25 -> 0.03 (ça c'est l'élitisme à proprement parler)
 Population initiale: 10 -> 50 (sinon la population devient trop petite après la modification de sélection des meilleurs)
 
+On change les coefs des individus pour qu'ils soient tous à 2 chiffres après la virgule (au lieu de j'à 15 ou 16)
 
 
