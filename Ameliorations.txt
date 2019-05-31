@@ -1,0 +1,5 @@
+Fonction "loi_proba"
+
+duree_max = 200
+
+critère de différence des individus
