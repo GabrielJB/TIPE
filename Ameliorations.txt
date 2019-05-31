@@ -30,7 +30,8 @@ Population initiale: 10 -> 50 (sinon la population devient trop petite après la
 On change les coefs des individus pour qu'ils soient tous à 2 chiffres après la virgule (au lieu de j'à 15 ou 16)
 
 suprimer doublons à la fin de la création de chaque génération: nécessaire? On peut juste de faire lors de la mutation?
-On regarde les nombre de doublons obtenus: environ 6 ou 7 par génération!!
+On regarde les nombre de doublons obtenus en supprimant les doublons: environ 6 ou 7 par génération!!
+-> problème avec le test d'égalité des coefs??
 
 Erreurs: voitures qui tournent sur elles-mêmes -> modifier circuits
 
