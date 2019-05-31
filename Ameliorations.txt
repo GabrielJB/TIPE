@@ -3,3 +3,22 @@ Fonction "loi_proba"
 duree_max = 200
 
 critère de différence des individus
+
+changer f_score? lien entre distance et score
+pygaùe.pump?
+
+creer la 1e génération
+
+filtrer
+elitisme
+
+
+
+Modifié:
+proportion de sélection des meilleurs 0.25 -> 0.03
+Population initiale: 10 -> 50 (sinon la population devient trop petite après la modification de sélection des meilleurs)
+
+repêche 20/50 en fonction de leur score
+croisements et mutation seulement parmis les repêché et le meilleur (elitistes ou non?)
+
+
