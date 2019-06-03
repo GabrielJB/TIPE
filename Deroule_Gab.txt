@@ -33,7 +33,16 @@ NP-Complétude???
 		La méthode directe consiterait à dénombrer toute les trajectoires possibles puis de sélectionner la plus courte. Cet algorithme est exponentiel en la taille du circuit. On utilise donc un algorithme dynamique.
 		(Pub pour l'algo dynamique?)
 		
-
+	(Algorithme dynamique appliqué à un problème simplifié
+	Cadre du problème simplifié
+	Inefficacité de l’algorithme glouton
+	Présentation des alternatives, mais ici la vitesse varie
+	Un algorithme qui est possible est l’algorithme dynamique
+	(Principe et histoire)
+	Description de l’algorithme (+ commentaires sur l’implémentation?)
+	Preuve d’optimalité
+	Résultats: temps de calcul, complexité, utilisable?
+	Possibilité)
 
 
 
