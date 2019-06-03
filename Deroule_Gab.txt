@@ -3,7 +3,7 @@ Voitures autonomes et algorithmes génétiques
 	# Cadre, accroche
 	# Description du problème
 
-## Algorithme dynamique appliqué à un problème simplifié
+## Algorithme dynamique (appliqué à un problème simplifié)
 	# Cadre du problème simplifié
 	# Description de l'algorithme (+ commentaires sur l'implémentation?)
 	# Résultats: temps de calcul, complexité, utilisable?
@@ -21,14 +21,18 @@ NP-Complétude???
 	# 
 
 
-Introduction:
+## Introduction:
 	Les voitures autonomes sont un sujet en plein développement qui présente de nombreux problèmes. La navigation de la voiture est l'un des [problèmes] majeurs. La voiture doit pouvoir se déplacer d'un point de départ donné vers une ligne d'arrivée sans percuter d'obstacles. Elle doit donc s'adapter à son environnement. Mon camarade et moi-même avons exploré des méthodes qui ne nécessitent pas le codage explicite des réaction de la voiture.
 	Dans le cadre de notre étude, la voiture peut accélérer, et donc faire varier sa vitesse qui ne peut pas dépasser une borne v_max donnée. Sa vitesse initiale est nulle. Le temps est discrétiser, donc l'évolution de la position de la voiture se fait étape par étape.
-	Dans la suite on parlera de trajectoire plutôt que de chemin car la vitesse n'est pas constante.
+	Dans la suite on parlera de trajet ou de trajectoire plutôt que de chemin car la vitesse n'est pas constante.
 
 
-
-
+## Algorithme dynamique
+	# Cadre du problème simplifié
+		Je tout choisit d'étudié un problème simplifié qui permettrait d'opbtenir une trajectoire avec le moins de coups possible pour la voiture. Pour cela j'ai considéré un tronçon de circuit discrétisé en cases que j'ai représenté par une grille. Ici la voiture doit alors partir de la case verte et arriver sur une des quatre cases d'arrivée. Sa vitesse peut varier de 1 en abscisses et en ordonnées mais elle ne peut pas être négative en ordonnées ou excéder v_max.
+		La méthode directe consiterait à dénombrer toute les trajectoires possibles puis de sélectionner la plus courte. Cet algorithme est exponentiel en la taille du circuit. On utilise donc un algorithme dynamique.
+		(Pub pour l'algo dynamique?)
+		
 
 
 
