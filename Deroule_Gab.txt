@@ -45,7 +45,6 @@ NP-Complétude???
 	Possibilité)
 
 
-
 Utilisation d'un algo dynamique pour trouver une trajectoire optimale dans un circuit discretisé.
 
 
